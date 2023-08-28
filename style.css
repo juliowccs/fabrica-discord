@@ -1,0 +1,125 @@
+:root {
+    --background-color: #F0F2F5;
+    --primary-color: #404EED;
+    --white: #fff;
+    --grey: #E7E7E7;
+    --roxo: #7241a1;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+ .header {
+    background-color: var(--primary-color);
+ }
+
+ .header header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.75rem 0rem;
+ }
+
+ .header header h1 {
+    color: var(--white);
+ }
+ .meus-links {
+    display: flex;
+    align-items: center;
+    gap: 2.75rem;
+ }
+
+ .meus-links a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    transition: 200ms ease-in-out
+ }
+
+ .meus-links a:hover {
+    color: #000;
+ }
+
+ .header header button {
+    border: none;
+    background-color: var(--white);
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: 200ms ease-in-out
+ }
+
+ .header header button:hover {
+    color: var(--primary-color);
+    -webkit-box-shadow: 0px 11px 23px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 23px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 23px -15px rgba(0,0,0,0.75);
+ }
+
+ .background-color-view {
+     background-color: var(--primary-color);
+     height: 38rem;
+ }
+
+ .text {
+    padding-top: 3rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ }
+
+ .text .text-center {
+    color: var(--white);
+    text-align: center;
+    font-weight: 500;
+ } 
+ .text h1 {
+    color: var(--white);
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+ }
+
+ .text input {
+    outline: none;
+    padding: 1rem 1.75rem;
+    border-radius: 2rem;
+    border: none;
+    width: 30%;
+
+ }
+
+ .little-text a, p {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 500;
+ }
+
+ .little-text a {
+    color: var(--grey);
+    text-decoration: underline;
+ }
